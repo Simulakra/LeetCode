@@ -1,5 +1,6 @@
 class Solution:
   def twoSum2(self, nums: list[int], target: int) -> list[int]:
+    # 8995ms / 14.8MB
     output = list()
     b=0
     for x in range(len(nums)):
