@@ -1,5 +1,6 @@
 class Solution:
   def isPalindrome(self, x: int) -> bool:
+    # 77ms / 13.8MB
     y=str(x)
     for i in range(int(len(y)/2)):
       if(i==0):
